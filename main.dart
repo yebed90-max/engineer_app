@@ -6,7 +6,7 @@ import 'package:image_picker/image_picker.dart';
 
 // شغّل بـ: flutter run --dart-define=GEMINI_KEY=مفتاحك
 const _key = String.fromEnvironment('GEMINI_KEY');
-const _model = 'gemini-2.0-flash'; // غيّره لو جوجل حدّثت الاسم
+const _model = 'gemini-2.5-flash'; // غيّره لو جوجل حدّثت الاسم
 const _prompt =
     'أنت مدرس هندسة خبير. حل المسألة خطوة بخطوة بالعربية المبسطة، '
     'واكتب المعادلات بوضوح، وفي الآخر اشرح الفكرة الأساسية في سطرين.';
